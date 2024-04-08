@@ -1,0 +1,136 @@
+
+#hero-contact{
+    margin-top: 30px;
+    position: relative;   
+}
+#hero-contact-img img{
+    width: 100%;
+    height: 30vh;
+    position: relative;
+   
+}
+#hero-contact-text{
+    position: absolute;
+    top: 50px;
+    left: 35%;
+    text-align: center;
+   
+}
+#hero-contact-text h1{
+    font-size: 40px;
+    color: white;
+}
+#hero-contact-text p{
+    font-size: 20px;
+    color: rgb(220, 222, 222);
+}
+/* start contact-address */
+
+#contact-address{
+    display: flex;
+    width: 90%;
+    padding: 4%;
+    margin: auto;
+}
+.contact-address-map iframe{
+    width: 100%;
+    margin-left: 20px;
+}
+.contact-address-detail div{
+   color: rgb(124, 128, 128);
+} 
+.contact-address-detail div i{
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.contact-address-detail h1{
+    font-size: 30px;
+}
+/* 
+contact form start */
+#contact-form{
+    display: flex;
+    border: 1px solid black;
+    margin: 10px;
+    box-shadow: 0px 1px 10px black;
+    margin-bottom: 20px;
+}
+.people-box{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.massage-form{
+    width: 60%;
+    margin: auto;
+}
+.massage-form input{
+    padding: 10px;
+    width: 60%;
+    margin-top: 50px;
+}
+.people{
+    width: 30%;
+}
+.people-box div{
+  margin-left: 20px;
+}
+.people-box div h5{
+    color: rgb(103, 103, 100);
+  }
+  /* button */
+  #massage-send-button{
+    margin-left: 20px;
+    margin-bottom: 50px;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    letter-spacing: 2px;
+    border: transparent;
+    background-color: rgb(11, 134, 159);
+    font-weight: 900;
+    border-radius: 3px;
+    box-shadow: 1px 1px 10px rgb(42, 43, 43);
+  }
+  #massage-send-button:hover{
+    background-color: red;
+  }
+
+
+@media only screen and (max-width: 600px) {
+    
+#contact-address{
+ 
+    flex-direction: column;
+   
+}
+
+.contact-address-map iframe{
+    width: 90%;
+   height: 30vh;
+   margin-top: 10px;
+}
+#contact-form{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.massage-form{
+    width: 100%;
+   padding-left: 20px;
+}
+
+.massage-form input{
+    padding: 10px;
+    width: 70%;
+    margin-top: 10px;
+}
+
+
+.people{
+    width: 100%;
+}
+
+}
+
+

@@ -1,0 +1,158 @@
+.banner-shop{
+    margin-top: 20px;
+    
+    padding: 20px 0px 50px;
+    background-image: url("./photo/b1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+}
+
+
+.pagination{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    
+}
+
+.pagination a{
+    text-decoration: none;
+    padding: 5px 10px 5px 10px ;
+    background-color: rgb(2, 110, 101);
+    color: white;
+    border-radius: 3px;
+}
+
+
+
+/*single product start */
+
+.single-product{
+    display: flex;
+    /* justify-content: space-evenly; */
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.single-product-img{
+    width: 50%;
+    height: auto;
+}
+
+#main-img{
+    /* width: 80%; */
+    height: 70vh;
+    padding: 0% 0% 0% 10%;
+}
+.small-img{
+    width: 37%;
+    margin-left: 3px;
+}
+#small-img-box{
+    width: 50%;
+    display: flex;
+    padding: 0% 0% 0% 10%;
+   
+}
+
+
+
+.single-product-details{
+    width: 40%;
+}
+
+.single-product-details p{
+    font-family: 'Courier New', Courier, monospace;
+   
+}
+.single-product-details h6{
+    color: rgba(68, 67, 67,0.5);
+    font-size: 15px;
+}
+
+.single-product-details h4{
+    font-size: 25px;
+
+}
+.single-product-details input{
+    width: 40px;
+    height: 40px;
+  
+}
+
+.single-product-details button{
+    padding: 15px;
+    background-color: rgb(23, 178, 178);
+    border: transparent;
+    border-radius: 5px;
+}
+.single-product-details select{
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .banner-shop{
+       height: 105px;
+       margin-bottom: 10px;
+        padding: 2px 0px 10px 3px;
+        background-image: url("./photo/b2.jpg");
+    }
+    .banner-shop h2,h1{
+     font-size: 15px;
+    }
+
+
+
+    /* single product */
+    
+.single-product{
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.single-product-img{
+    width: 100%;
+   
+}
+
+
+
+
+#main-img{
+    width: 90%;
+    height: 50vh;
+}
+
+#small-img-box{
+    width: 100%;
+}
+
+
+.small-img{
+    width: 22%;
+    margin-left: 3px;
+}
+
+
+.single-product-details{
+    width: 100%;
+    padding-left: 10%;
+}
+
+
+
+
+
+
+}

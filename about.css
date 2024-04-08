@@ -1,0 +1,59 @@
+
+
+#hero2{
+    display: flex;
+    width: 100%;
+   
+}
+.hero2-text{
+    width: 40%;
+}
+
+.hero2-text h1{
+    font-size: 40px;
+}
+
+.hero2-text p{
+   font-weight: 100;
+   color: rgb(58, 59, 59);
+}
+.hero2-img{
+    width: 48%;
+}
+.hero2-img img{
+   width: 90%;
+    padding: 30px;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+
+    #hero2{
+        flex-direction: column;
+        box-shadow: 1px 1px 10px rgb(56, 55, 55);
+        overflow: hidden;
+        margin-left: 2%;
+       
+    }
+
+    .hero2-text{
+        width: 99%;
+        padding: 2%;
+    }
+
+
+    .hero2-img{
+        width: 99%;
+
+    }
+
+    .hero2-img img{
+        width: 90%;
+         padding: 30px;
+     }
+     
+
+}
